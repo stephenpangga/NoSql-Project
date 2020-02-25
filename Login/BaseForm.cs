@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Login
 {
-    public partial class Dashboard : Form
+    public partial class BaseForm : Form
     {
-        public Dashboard()
+        public BaseForm()
         {
             InitializeComponent();
+        }
+
+        private void BaseForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

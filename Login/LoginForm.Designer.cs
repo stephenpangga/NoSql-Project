@@ -1,6 +1,6 @@
 ﻿namespace Login
 {
-    partial class Login
+    partial class LoginForm
     {
         /// <summary>
         /// Required designer variable.
@@ -38,9 +38,9 @@
             // 
             // btn_login
             // 
-            this.btn_login.Location = new System.Drawing.Point(179, 253);
+            this.btn_login.Location = new System.Drawing.Point(186, 270);
             this.btn_login.Name = "btn_login";
-            this.btn_login.Size = new System.Drawing.Size(266, 46);
+            this.btn_login.Size = new System.Drawing.Size(266, 40);
             this.btn_login.TabIndex = 0;
             this.btn_login.Text = "Login";
             this.btn_login.UseVisualStyleBackColor = true;
@@ -48,14 +48,14 @@
             // 
             // txt_user
             // 
-            this.txt_user.Location = new System.Drawing.Point(240, 134);
+            this.txt_user.Location = new System.Drawing.Point(247, 151);
             this.txt_user.Name = "txt_user";
             this.txt_user.Size = new System.Drawing.Size(205, 20);
             this.txt_user.TabIndex = 1;
             // 
             // txt_password
             // 
-            this.txt_password.Location = new System.Drawing.Point(240, 194);
+            this.txt_password.Location = new System.Drawing.Point(247, 211);
             this.txt_password.Name = "txt_password";
             this.txt_password.Size = new System.Drawing.Size(205, 20);
             this.txt_password.TabIndex = 2;
@@ -63,7 +63,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(176, 137);
+            this.label1.Location = new System.Drawing.Point(183, 154);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 3;
@@ -73,7 +73,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(176, 197);
+            this.label2.Location = new System.Drawing.Point(183, 214);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 4;
@@ -82,7 +82,7 @@
             // 
             // btn_forgotpass
             // 
-            this.btn_forgotpass.Location = new System.Drawing.Point(179, 318);
+            this.btn_forgotpass.Location = new System.Drawing.Point(186, 335);
             this.btn_forgotpass.Name = "btn_forgotpass";
             this.btn_forgotpass.Size = new System.Drawing.Size(266, 42);
             this.btn_forgotpass.TabIndex = 5;
@@ -90,7 +90,7 @@
             this.btn_forgotpass.UseVisualStyleBackColor = true;
             this.btn_forgotpass.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Login
+            // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -101,7 +101,7 @@
             this.Controls.Add(this.txt_password);
             this.Controls.Add(this.txt_user);
             this.Controls.Add(this.btn_login);
-            this.Name = "Login";
+            this.Name = "LoginForm";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

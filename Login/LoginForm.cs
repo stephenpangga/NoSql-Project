@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Login
 {
-    public partial class Login : Form
+    public partial class LoginForm : Form
     {
-        public Login()
+        public LoginForm()
         {
             InitializeComponent();
         }
@@ -24,7 +24,16 @@ namespace Login
 
         private void button1_Click(object sender, EventArgs e)
         {
-            txt_user.Text;
+            string username = txt_user.Text;
+            string password = txt_password.Text;
+
+            if(username == "stephen" && password == "stephen")
+            {
+                DashboardForm dashboard = new DashboardForm();
+
+                dashboard.Show();
+                Hide();
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
