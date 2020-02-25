@@ -24,7 +24,7 @@ namespace Login
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            txt_user.Text;
         }
 
         private void label1_Click(object sender, EventArgs e)
